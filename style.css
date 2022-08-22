@@ -8,6 +8,10 @@ h1 {
 h2 {
     font-size: 40px;
 }
+p {
+    color: dimgray;
+}
+
 .orange-color {
     color: orange;
 }
@@ -45,11 +49,29 @@ h2 {
     padding-right: 130px;
     /* text-align: justify; */
 }
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
 
-/* .experience-item {
-
-} */
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    /* margin-right: 5%; */
+    padding-left: 2%;
+    /* padding-right: 25px; */
+    border-radius: 10px;
+    box-shadow: 5px 7px 40px gray;
+}
 
 #full-stack-experience {
-    border-left: 5px solid tomato;
+    border-left: 7px solid tomato;
+}
+#web-dev-experience {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
